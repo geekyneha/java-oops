@@ -1,8 +1,10 @@
 package bank;
 
 public abstract class Account {
-
-    private String accountNumber;
+   // instance variables
+   //private because we don't want direct access by subclasses
+   private String accountNumber;
+   // protected because we want access by subclasses only
    protected double balance;
 
     public Account( String accountNumber, double balance){
