@@ -12,8 +12,9 @@ public class Main {
         currentAcc.deposit(3000);
         currentAcc.withdraw(2500);
         System.out.println("Final Balance: " + currentAcc.getBalance());
-        currentAcc.withdraw(5000);
+        currentAcc.withdraw(2000);
         System.out.println("Final Balance: " + currentAcc.getBalance());
+
     }
     
 }
